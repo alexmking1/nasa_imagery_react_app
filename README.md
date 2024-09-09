@@ -72,11 +72,11 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Bring in the additional functionality from completed iteration of this app on my Enterprise repo (once my account is recovered). 
-- [x] Add data calculation for distances in light years and positioning within our solar system
-- [ ] tbd
-- [ ] tbd
-- [ ] tbd
+- [ ] Bring in the additional functionality from completed iteration of this app on my Enterprise repo (once my account is recovered). This will automatically complete all the below functionality.
+- [ ] Add data calculation for distances in light years and positioning within our solar system.
+- [ ] Change images every 30 minutes instead of 1 per day.
+- [ ] Keep a persistent 'leaderboard' that indicates which image/object resulted in the 'largest-so-far' value for each metric. Over time this leaderboard becomes more compelling as you're able to see 
+- [ ] Add a 'time on top' value for the leaderboard that indicates how long each images has held the top spot for that particular metric. For example, the image of the 'moon' would likely hold the top spot in the 'weakest-gravity' metric for a long time, since it's unlikely we'll encounter any images that have a weaker gravity than the moon. 
     - [ ] tbd
     - [ ] tbd
 
