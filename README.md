@@ -1,6 +1,10 @@
 <!-- ABOUT THE PROJECT -->
 # About The Project
-This Nasa Imagery app is a uses the Nasa API to get a new image each day and provide information about that image relative to earth's location in space. 
+This web application displays a real image of an object in space (such as a planet, galaxy, nebula etc) and uses meta data to calculate interesting metrics about that object relative to earth (such as how far away the object is from Earth and how much larger/smaller the object is compared to Earth). Certain metrics for certain objects may not currently be known (such as temperature comparisons with a black hole) and the app is able to adjust accordingly, so only 'factual' information ends up being displayed to the user. 
+
+### Note
+This is not the completed project. It's a previous iteration I managed to recover. The completed project is on my GitHub Enterprise account. Due to the University of Minnesota's recent change to end lifetime alumni support, I no longer have access to what was my primary GitHub account (more details on my [homepage](https://github.com/alexmking1)). While this unfinished version of the project still functions, it lacks the Node.js/Express functionality that was added later and will serve as a placeholder until I regain access to my Enterprise account.  
+
 ### Screenshots
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -37,7 +41,7 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free NASA API Key at: [https://api.nasa.gov](https://api.nasa.gov)
+1. Get a free NASA API Key at: [NASA API](https://api.nasa.gov)
 2. Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
