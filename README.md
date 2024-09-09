@@ -44,7 +44,7 @@ _Below is an example of how you can instruct your audience on installing and set
 1. Get a free NASA API Key at: [NASA API](https://api.nasa.gov)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/alexmking1/nasa_imaging_react_proj.git
    ```
 3. Install NPM packages
    ```sh
