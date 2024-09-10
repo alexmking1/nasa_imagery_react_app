@@ -2,8 +2,9 @@
 # About The Project
 This web application displays a real image of an object in space (such as a planet, galaxy, nebula etc) and uses meta data to calculate interesting metrics about that object relative to earth (such as how far away the object is from Earth and how much larger/smaller the object is compared to Earth). Certain metrics for certain objects may not currently be known (such as temperature comparisons with a black hole) and the app is able to adjust accordingly, so only 'factual' information ends up being displayed to the user. 
 
-### Note
-This is not the completed project. It's a previous iteration I managed to recover. The completed project is on my GitHub Enterprise account. Due to the University of Minnesota's recent change to end lifetime alumni support, I no longer have access to what was my primary GitHub account (more details on my [homepage](https://github.com/alexmking1)). While this unfinished version of the project still functions, it lacks the Node.js/Express functionality that was added later and will serve as a placeholder until I regain access to my Enterprise account.  
+
+* **NOTE:** This is *not* the completed project. It's a previous iteration I managed to recover. The completed project is on my GitHub Enterprise account. Due to the University of Minnesota's recent change to end lifetime alumni support, I no longer have access to what was my primary GitHub account (more details on my [homepage](https://github.com/alexmking1)). While this unfinished version of the project still functions, it lacks the Node.js/Express functionality that was added later and will serve as a placeholder until I regain access to my Enterprise account.  
+
 
 ### Screenshots
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
@@ -20,8 +21,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 [![React][React.js]][React-url]
 [![Laravel][Laravel.com]][Laravel-url]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-
-
 
 <!-- GETTING STARTED -->
 # Getting Started
@@ -59,16 +58,6 @@ _Below is an example of how you can instruct your audience on installing and set
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
    ```
-
-
-
-
-
-
-
-
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -76,9 +65,9 @@ _Below is an example of how you can instruct your audience on installing and set
 - [ ] Add data calculation for distances in light years and positioning within our solar system.
 - [ ] Change images every 30 minutes instead of 1 per day.
 - [ ] Keep a persistent 'leaderboard' that indicates which image/object resulted in the 'largest-so-far' value for each metric. Over time this leaderboard becomes more compelling as you're able to see 
-- [ ] Add a 'time on top' value for the leaderboard that indicates how long each images has held the top spot for that particular metric. For example, the image of the 'moon' would likely hold the top spot in the 'weakest-gravity' metric for a long time, since it's unlikely we'll encounter any images that have a weaker gravity than the moon. 
-    - [ ] tbd
-    - [ ] tbd
+   - [ ] Add a 'time on top' value for the leaderboard that indicates how long each images has held the top spot for that particular metric. For example, the image of the 'moon' would likely hold the top spot in the 'weakest-gravity' metric for a long time, since it's unlikely we'll encounter any images that have a weaker gravity than the moon. 
+    - [ ] Add a 'tally' of total number of images/objects that the leaderboard is including in its current state
+
 
 
 
