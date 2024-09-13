@@ -9,51 +9,41 @@ This web application displays a real image of an object in space (such as a plan
 ### Screenshots
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-
 # Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.  
-
+![Static Badge][React.js]
+![Static Badge][NodeJS]
+![Static Badge][Express]
 ![Static Badge][Vite]
-[![Next][Next.js]][Next-url]
-[![React][React.js]][React-url]
-[![Laravel][Laravel.com]][Laravel-url]
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 <!-- GETTING STARTED -->
 # Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Follow the steps below to setup and run this project locally.
 
 ## Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
   ```
+* NASA API Key at: [NASA API](https://api.nasa.gov). You will need your own API key for the project to work
 
 # Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free NASA API Key at: [NASA API](https://api.nasa.gov)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/alexmking1/nasa_imaging_react_proj.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `.env` file
+3. Enter your API in `.env` file
    ```js
-   VITE_NASA_API_KEY="ENTER YOUR API STRING HERE"
+   VITE_NASA_API_KEY= "ENTER-YOUR-API-STRING-HERE"
    ```
-5. Change git remote url to avoid accidental pushes to base project
+4. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
@@ -84,10 +74,10 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-<img alt="Vite" src="https://img.shields.io/badge/Vite-%23646CFF?style=for-the-badge&logo=Vite&logoColor=white" />
-
 [Vite]: https://img.shields.io/badge/Vite-%23646CFF?style=for-the-badge&logo=Vite&logoColor=white
 [Next-url]: https://nextjs.org/
+[Express]: https://img.shields.io/badge/Express-%23000000?style=for-the-badge&logo=Express&logoColor=white
+[NodeJS]: https://img.shields.io/badge/Nodejs-43853d?style=for-the-badge&logo=Node.js&logoColor=white
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
